@@ -1,3 +1,1 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
-// empezando mi desario para realizar mañana, estudiar logica for ,if arrays,funciones etcc
-// vamos a terminar de ver los videos de la clase
