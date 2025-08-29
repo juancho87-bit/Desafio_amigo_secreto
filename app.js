@@ -1,1 +1,2 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
+// empezando a trabajar el desafio challenge del amigo secreto
