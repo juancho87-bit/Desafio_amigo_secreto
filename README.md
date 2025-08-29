@@ -4,3 +4,19 @@
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20PROYECTO-green)
 
 ![iniciando proyecto](https://img.shields.io/badge/INICIANDO-PROYECTO_EN_ALURA-blue)
+
+Descripcion del proyecto
+
+Proyecto de desarrollado para el programa G9 de alura latam en el curso de logica de programacion, es un programa que permite agregar nombres de personas para jugar al amigo secreto y de esta forma de forma aleatoria escoge a una persona de las que ingresamos.
+
+🚧 Proyecto en construccion 0% avance 🚧🐛
+
+## :hammer:Funcionalidades del proyecto
+- `Funcionalidad 1`: permite ingresar nombre de personas
+- `Funcionalidad 2`: permite ver en pantalla los nombres agregados
+- `Funcionalidad 3`: permite hacer un sorteo para escoger el amigo secreto ganador
+
+
+\## 📁 Acceso al proyecto
+
+\## 🛠️ Abre y ejecuta el proyecto
