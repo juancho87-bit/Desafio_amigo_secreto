@@ -1,3 +1,4 @@
+
 :root {
     --color-primary: #4B69FD;
     --color-secondary: #FFF9EB;
@@ -130,14 +131,14 @@ ul {
     list-style-type: none;
     color: var(--color-text);
     font-family: "Inter", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     margin: 20px 0;
 }
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
-    font-size: 22px;
+    color: #139e13;
+    font-size: 34px;
     font-weight: bold;
     text-align: center;
 }
@@ -151,6 +152,13 @@ ul {
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
+}
+
+#resultadoAmigo {
+    font-size: 3rem; /* Tamaño más grande */
+    font-weight: bold; /* Para que se vea más fuerte */
+    color: #1150a2; /* Opcional: color llamativo */
+    margin-top: 5px; /* Separación con otros elementos */
 }
 
 .button-draw img {

@@ -8,12 +8,33 @@ function agregarAmigo (){  //la funcion cuando damos en onclik en html del boton
     let input = document.querySelector ("#amigo");
     let nombre = input.value.trim();
 
-        if (nombre !==""){
+    if (nombre === ""){ // validacion primero entra al if y pregunta si esta vacio el campo
+        alert ("Porfavor, inserte un nombre");
+        return;
+        }
+        
             amigos.push(nombre); // con push agrega o lo guarda en el vector 
             mostrarAmigos();     // llama a la funcion que esta abajo y muestra los amigos que hemos agregado
-            input.value =" "; // limpia el cuadro de texto para seguir escribiendo
-        }
+            input.value =""; // limpia el cuadro de texto para seguir escribiendo
+            input.focus();
+        
 }
+
+    function sortearAmigo(){
+        if (amigos.length === 0){
+                alert ("No hay amigos para sortear");
+                return;
+            }
+
+            let indiceAmigo = Math.floor(Math.random()*amigos.length); // hace el sorteo aleatorio de los amigos queh hay en el vector amigos
+            let amigoElegido = amigos[indiceAmigo];
+
+            
+            document.getElementById("resultadoAmigo").innerHTML= amigoElegido;
+            // console.log (amigos[indiceAmigo]);
+            
+        }
+
 
 function mostrarAmigos (){
 
